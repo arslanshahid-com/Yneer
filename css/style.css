@@ -1,0 +1,117 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.main-header .navbar-brand {
+    display: inline-block;
+    float: none;
+    margin-top: 10px;
+    color: #d5d5d5;
+     font-size: 16px;
+      padding-left: 30px;
+}
+.main-header .navbar-brand:hover {
+    color: #d5d5d5;
+}
+.main-header .navbar-default {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.custom-logo {
+    float: left;
+}
+.main-header {
+    background: #4d4d4d none repeat scroll 0 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.main-header .navbar-nav li.active a {
+    background: transparent none repeat scroll 0 0 !important;
+    color: #d5d5d5 !important;
+}
+.main-header .navbar-nav li a{
+    color: #d5d5d5;
+    padding: 7px 15px;
+     font-size: 16px;
+}
+.main-header .navbar-nav li a:hover {
+    color: #d5d5d5;
+}
+.main-header .navbar-nav {
+    margin-top: 20px;
+}
+.main-header .navbar-form {
+    margin: 0;
+}
+.main-header .yneer-login {
+    background: #47ff0b none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff !important;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 7px 25px !important;
+    text-transform: uppercase;
+}
+.main-header .navbar-form input {
+    border-radius: 5px !important;
+}
+.landing-inner {
+    text-align: center;
+     color: #fff;
+     padding-top: 70px;
+}
+.landing-main {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #4d4d4d;
+    background-image: none;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+.landing-inner h2 {
+    font-size: 60px;
+}
+.landing-inner p {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.sign-up a {
+    background: #47ff0b none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    border: 3px solid #47ff0b ;
+    display: inline-block;
+    font-size: 30px;
+    width: 270px;
+     padding: 20px 0;
+    text-transform: uppercase;
+}
+.virtual-tour a {
+    border-radius: 5px;
+    color: #fff;
+    border: 3px solid #fff ;
+    display: inline-block;
+    font-size: 30px;
+    width: 270px;
+     padding: 20px 0;
+    text-transform: uppercase;
+}
+.virtual-tour a:hover, .sign-up a:hover{
+	text-decoration: none;
+}
+.landing-buttons {
+    display: block;
+    margin: 0 auto;
+    max-width: 680px;
+    width: 100%;
+}
