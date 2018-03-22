@@ -115,3 +115,41 @@ body{
     max-width: 680px;
     width: 100%;
 }
+.grey-bg {
+    background: #333333 none repeat scroll 0 0;
+}
+.login-widget {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px 60px;
+    text-align: center;
+    width: 100%;
+}
+.inner-login h2 {
+    color: #405050;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.btn.login-button {
+    background: #47ff0b none repeat scroll 0 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 100%;
+}
+.inner-login .checkbox {
+    text-align: left;
+}
+.inner-login .forget {
+    text-align: right;
+}
+.forget a {
+    color: #47ff0b;
+    display: inline-block;
+    margin-top: 10px;
+}
