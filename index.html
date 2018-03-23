@@ -10,9 +10,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Yneer</title>
   </head>
   <body>
+     
   <header class="main-header">
     <div class="container">
       <nav class="navbar navbar-default" role="navigation">
@@ -43,7 +45,9 @@
                 </div>
               </form>
             </li>
-            <li><a href="#" class="yneer-login">Log In</a></li>
+            <li><a href="#" class="yneer-login" data-toggle="modal" data-target="#login">Log In</a></li>
+
+
           </ul>
           
         </div><!-- /.navbar-collapse -->
@@ -64,7 +68,7 @@
           <div class="row">
             <div class="col-sm-6">
               <div class="sign-up">
-                <a href="#">Sign up</a>
+                <a href="#" data-toggle="modal" data-target="#signup">Sign up</a>
               </div>
             </div>
             <div class="col-sm-6">
@@ -77,6 +81,148 @@
       </div>
     </div>
   </section>
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <section class="login">
+          
+            
+                <div class="login-widget">
+                  <div class="inner-login">
+                    <h2>Login to Yneer</h2>
+                     <form action="/action_page.php">
+                        <div class="form-group">
+                        
+                          <input type="email" class="form-control" id="email" placeholder="Username / Email">
+                        </div>
+                        <div class="form-group">
+                          
+                          <input type="password" class="form-control" id="pwd" placeholder="Password">
+                        </div>
+                        
+                        <input type="submit" class="btn login-button" value="login">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="checkbox">
+                              <label><input type="checkbox"> Remember me</label>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="forget">
+                              <a href="#">Forget Password</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="or">
+                          <p>Or</p>
+                        </div>
+                        <div class="facebook-button">
+                          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                          <a href="#">Continue with Facebook</a>
+                        </div>
+                        <div class="google-button">
+                          <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                          <a href="#">Continue with Google</a>
+                        </div>
+                        <div class="register-yet">
+                          <p>Haven't registered yet? <a href="#">Join now</a></p>
+                        </div>
+                        
+                        
+                      </form> 
+                  </div>
+                </div>
+             
+          
+        </section>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <section class="login">
+          
+            
+                <div class="login-widget">
+                  <div class="inner-login">
+                    <h2>Join Yneer</h2>
+                     <form action="/action_page.php">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="fname" placeholder="First Name">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="Username" placeholder="Choose a Username">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="Gender" placeholder="Gender">
+                          </div>
+                        </div>
+                      </div>
+                        <div class="form-group">
+                        
+                          <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          
+                          <input type="password" class="form-control" id="pwd" placeholder="Choose a Password">
+                        </div>
+                        
+                        <input type="submit" class="btn login-button" value="Join">
+                        
+                        <div class="or">
+                          <p>Or</p>
+                        </div>
+                        <div class="facebook-button">
+                          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                          <a href="#">Continue with Facebook</a>
+                        </div>
+                        <div class="google-button">
+                          <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                          <a href="#">Continue with Google</a>
+                        </div>
+                        <div class="register-yet">
+                          <p>By signing up, you agree to Yneer's<a href="#">Term of Service. </a>
+                            <br>
+                            Already registered? <a href="#">Login</a>  
+                          </p>
+                        </div>
+                        
+                        
+                      </form> 
+                  </div>
+                </div>
+             
+          
+        </section>
+      </div>
+      
+    </div>
+  </div>
+</div>
+ 
 
 
     <!-- Optional JavaScript -->
@@ -84,5 +230,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/7eb2c88586.js"></script>
+    <script src="js/custom.js"></script>
+
   </body>
 </html>

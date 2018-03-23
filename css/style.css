@@ -151,5 +151,83 @@ body{
 .forget a {
     color: #47ff0b;
     display: inline-block;
+    font-weight: bold;
     margin-top: 10px;
 }
+.forget a:hover {
+   text-decoration: none;
+}
+.main-header .yneer-login:hover, .main-header .yneer-login:focus {
+    background: #47ff0b none repeat scroll 0 0 !important;
+}
+.main-header .navbar-form {
+    width: 250px;
+}
+.main-header .navbar-form .input-group {
+    width: 100%;
+}
+#login .modal-dialog, #signup .modal-dialog {
+    margin: 120px auto 30px;
+    max-width: 500px;
+    width: 100%;
+}
+.or p {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+.or {
+    background: rgba(0, 0, 0, 0) url("../images/line-bg.jpg") repeat-x scroll center center;
+}
+.facebook-button i, .google-button i {
+    color: #fff;
+    font-size: 30px;
+    left: 0;
+    padding: 7px;
+    position: absolute;
+}
+
+.facebook-button a, .google-button a {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.facebook-button a:hover, .google-button a:hover {
+    text-decoration: none;
+}
+.facebook-button {
+    background: #2048de none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+.google-button {
+    background: #F91C21 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+}
+.register-yet {
+    margin-top: 15px;
+}
+.register-yet p{
+	color: #404C4A;
+}
+.register-yet a{
+	color: #47ff0b;
+	font-weight: bold;
+}
+.register-yet a:hover{
+	text-decoration: none;
+}
+
+
