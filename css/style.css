@@ -229,5 +229,71 @@ body{
 .register-yet a:hover{
 	text-decoration: none;
 }
+.landing-page {
+    text-align: center;
+}
+.landing-page h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.request-image img {
+    width: 100%;
+}
+.request-para p {
+    color: #434343;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.request-widget.custom-padding {
+    padding-left: 35px;
+    padding-right: 35px;
+   
+}
+.request-widget.custom-padding.arrow {
+    position: relative;
+}
+.request-widget.custom-padding.arrow::after {
+    background: transparent url("../images/arrow.png") no-repeat scroll 0 0;
+    content: "";
+    height: 70px;
+    position: absolute;
+    right: -55px;
+    top: 70px;
+    width: 80px;
+}
+.post-question {
+    float: right;
+}
+.post-question a {
+    background: #46fe14 none repeat scroll 0 0;
+    border: 3px solid #46fe14;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px 0;
+    width: 220px;
+}
 
-
+.watch-video {
+    float: left;
+}
+.watch-video a {
+    background: #fff none repeat scroll 0 0;
+    border: 3px solid #46fe14;
+    border-radius: 5px;
+    color: #46fe14;
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px 0;
+    width: 220px;
+}
+.post-question a:hover, .watch-video a:hover, .post-question a:focus, .watch-video a:focus {
+    text-decoration: none;
+}
+.landing-page .landing-buttons {
+    margin-top: 50px;
+}
